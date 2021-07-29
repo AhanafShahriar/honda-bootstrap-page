@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+/*common styles*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#headline{
+    font-size: 48px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+}
+.orange{
+    color: #E76F51;
+}
+/*Banner-styles*/
+.honda-bg{
+    background: #264653;
+}
+.honda-btn-purchase{
+    background: #E76F51;;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 46px;
+    border: none;
+}
+/*Reviews section styles*/
+.checked {
+    color: orange;
+}
+h3,h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+/*faq sections styles*/
+.accordion-heading{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+}
